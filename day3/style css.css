@@ -1,0 +1,27 @@
+body{
+	font-family: var(sans-serif);
+	background-color: #1C2A44;
+}
+ul{
+	margin: 5%;
+	width: 450px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 25px 0;
+	border-radius: 25px;
+	border: 0.1px solid #099FFF;
+	background-color: gray;
+}
+li{
+	margin: auto;
+	color: whitesmoke;
+	font-size: 20px;
+	cursor: pointer;
+}
+li:after {
+display: block; 
+}
+li:hover:after{
+	transform: scaleX(1);
+}

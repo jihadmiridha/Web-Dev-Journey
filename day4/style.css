@@ -1,0 +1,134 @@
+body {font-family: Arial, Helvetica, sans-serif}
+* {box-sizing: border-box;}
+
+.bg-img {
+  
+  background-image: url("img/noodles.jpg");
+  min-height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  position: relative;
+}
+.navbar ul{
+  list-style: none;
+  text-align: right;
+  padding: 0;
+ margin: 0;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  padding: 20px 20px;
+  text-transform: uppercase;
+ 
+  font-family: arial;
+}
+.navbar a:hover{
+  background: #353640;
+}
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.navbar input[type=text] {
+border: 1px solid #ccc;  
+  }
+.logo{
+  width:80px;
+  color: white;
+  padding: 18px;
+}
+h1{
+  margin-left: -20px;
+  margin-top: -42px;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+p.a{
+  color: whitesmoke;
+  font-size:80px ;
+  padding-right: 20px;
+  margin: 20px;
+  font-family: 'Comforter Brush',cursive;
+}
+p.b{
+  font-style: italic;
+  color: white;
+  padding-right: 20px;
+  margin: 20px;
+}
+a.bg{
+  color: white;
+   padding-right: 20px;
+  margin: 20px;
+}
+p.c{
+  color: white;
+  padding-right: 20px;
+ margin: 20px;
+}
+h2{
+  text-align: center;
+  font-family: 'Comforter Brush';
+  font-size: 100px
+}
+p.d{
+  color: black;
+  text-align: center;
+ 
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a:link, a:visited {
+  background-color:gray;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  
+  justify-content: center;
+ 
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.footer { 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+
+}
+h6{
+  color: white;
+  font-size:80px ;
+  padding-right: 20px;
+  margin: 20px;
+  font-family: 'Comforter Brush',cursive;
+  text-align: center;
+}
+p.left{
+  background-color: black;
+  float: left;
+}
